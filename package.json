@@ -45,6 +45,6 @@
     "typescript": "^3.3.3333"
   },
   "dependencies": {
-    "ts-essentials": "^2.0.3"
+    "ts-essentials": "^7.0.1"
   }
 }
