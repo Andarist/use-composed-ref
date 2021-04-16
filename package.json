@@ -44,5 +44,5 @@
     "rollup-plugin-babel": "^4.3.2",
     "typescript": "^3.3.3333",
     "ts-essentials": "^2.0.3"
-  },
+  }
 }
