@@ -1,6 +1,6 @@
 {
   "name": "use-composed-ref",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "React hook which creates a ref function from given refs. Useful when using forwardRef.",
   "main": "./dist/use-composed-ref.cjs.js",
   "module": "./dist/use-composed-ref.esm.js",
