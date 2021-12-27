@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { Writable } from 'ts-essentials'
 
 // basically Exclude<React.ClassAttributes<T>["ref"], string>
 type UserRef<T> =
@@ -7,6 +6,8 @@ type UserRef<T> =
   | React.RefObject<T>
   | null
   | undefined
+
+type Writable<T> = { -readonly [P in keyof T]: T[P] }
 
 const updateRef = <T>(ref: NonNullable<UserRef<T>>, value: T | null) => {
   if (typeof ref === 'function') {
