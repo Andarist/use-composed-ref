@@ -22,7 +22,6 @@
   ],
   "scripts": {
     "test": "echo \"Warning: no test specified\" || jest --env=node",
-    "prebuild": "rimraf dist types",
     "build": "preconstruct build",
     "preversion": "npm test",
     "prepare": "npm run build"
@@ -51,7 +50,6 @@
     "lint-staged": "^8.1.5",
     "prettier": "^1.16.4",
     "react": "^16.8.4",
-    "rimraf": "^2.6.3",
     "typescript": "^5.7.2"
   },
   "preconstruct": {
