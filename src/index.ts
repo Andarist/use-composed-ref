@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 
 // basically Exclude<React.ClassAttributes<T>["ref"], string>
 type UserRef<T> =
